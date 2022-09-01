@@ -1,0 +1,389 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imgPet/BackGround.jpg);
+
+}
+
+.nomePetshop{
+
+    max-width: 100%;
+    height: 500px;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    justify-content: space-between;
+    margin: 23px;
+    
+}
+
+header{
+    font-family: sans-serif;
+    font-size: medium;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15,15,15);
+    box-shadow: 0 0 1rem #1218b0;
+    max-width: 100%;
+}
+
+ul{
+    display: flex;
+    margin: 23px;
+}
+
+li{
+    color:#1218b0;
+    list-style-type: none;
+    padding-left: 2rem;
+    list-style: none;
+    align-items: center;
+    
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+ color : #1218b0;
+
+}
+
+.introducao{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+
+#tituloEquipe{
+
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+
+}
+
+#TextoEquipe{
+    margin-top: 100px;
+    margin-left: 225px;
+    width: 900px;
+    height: 300px;
+}
+
+#ImagemHomeEquipe{
+
+    margin-left: 200px;
+}
+
+.cargos{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    color: aliceblue;
+
+}
+
+.sobreNos{
+    margin-left: 400px;
+    color: white;
+}
+
+.title{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+.corAlt{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    color: white;
+    font-size: larger;
+    font: bolder;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#ImagemHome{
+
+    margin-left: 500px;
+    height: 500px;
+    width: 400px;
+
+}
+
+#logoFooter{
+
+    width: 150px;
+    height: 300px;
+    margin-left: 50px;
+
+}
+
+#ImagemSobreNós{
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+/*footer*/
+
+footer{
+    box-shadow: 0 0 1rem #1218b0;
+    background-color: black;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: #1218b0;
+}
+
+footer h2, footer p, footer a, footer span {
+    color:#d1d1d1;
+
+}
+
+footer h2{
+    font-weight: 600;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-box{
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after{
+    clear:both;
+    content: "";
+    display: block;
+}
+
+.company-footer{
+    width: 80%;
+}
+
+.company-footer h2{
+    margin-top: 20px;
+}
+
+.company-footer h2, .company-footer p{
+    margin-bottom:20px;
+}
+
+.footer-list li{
+    margin-bottom: 15px;
+}
+
+.footer-list a{
+    transition: .5s;
+}
+
+.footer-list a:hover{
+    color: #1218b0;
+}
+
+.footer-list li:after{
+    clear:both;
+    content: "";
+    display: block;
+}
+
+.articles-footer{
+    width:80%;
+}
+
+.footer-list.footer-article-list span{
+    display: block;
+    float: none;
+}
+
+.fab{
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer-list li span{
+    float:left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-bottom{
+    border-top: 1px solid #1218b0;
+}
+
+.footer-bottom p{
+    font-weight: 600;
+    margin-top:40px;
+
+}
+
+#fale-conosco{
+    margin-left: 300px;
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin:0 auto;
+    display: inline-flex;
+    
+}
+
+.racao{
+    
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin:0 auto;
+    display: inline-flex;
+    
+}
+
+.space{
+    padding-right: 35px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.content-cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+
+.card{
+    width: 200px;
+    height: auto;
+    border: 1px solid gray;
+    margin:20px;
+    padding: 10px;
+}
+
+.card > .imagem-produto{
+    width: 100%;
+}
+
+.card > .produto{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card > .botao-comprar{
+    width: 100%;
+    height: 25px;
+    background-color: #1218b0;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+fieldset{
+    border: 0;
+}
+
+#formulario{
+  font-family: sans-serif;
+  font-size: 1em;
+  color: black;
+  margin-left: 400px;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em; 
+    color: black;
+    display: block;
+}
+
+fieldset.grupo.campo{
+    float: left
+    margin right 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #333;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background:#405bdb;
+}
+
+.botao{
+    font-size: 1.2em;
+    background:#333;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0,2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 55px;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.adote{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
